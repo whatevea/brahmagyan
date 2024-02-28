@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwindCSS with Tiled Background Image</title>
+    <!-- Include Tailwind CSS from CDN -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles for the body */
+        body {
+            background-image: url('https://cdn.magicdecor.in/com/2023/11/02120337/Green-and-White-Aum-Hindu-Symbol-Tile-Pattern-Wallpaper-for-Wall-710x488.jpg');
+            background-repeat: repeat;
+            /* Adjust other background properties as needed */
+            background-size: cover;
+            /* Cover the entire viewport */
+            background-position: center;
+            /* Center the background image */
+
+            /* Specify a fallback font family */
+            position: relative;
+            /* Make the body a positioned parent */
+        }
+
+        /* Overlay to make content more readable */
+        .overlay {
+            background-color: rgba(65, 138, 67, 0.6);
+            /* Semi-transparent black */
+        }
+
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+
+        .navitems div {
+            padding: 0.5rem 1rem;
+            border-radius: 5%;
+            border-width: 2px;
+            background-color: #6e9276;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar p-4 .kanit-medium">
+        <div class="items navitems flex justify-between gap-1">
+            <div class=""> <button>Book of Brahmaghyan </button></div>
+            <div class=""> <button>Introduction </button></div>
+            <div class=""> <button>Register </button></div>
+            <div class=""> <button>Login </button></div>
+            <div class=""> <button>Contact Us </button> </div>
+        </div>
+
+
+
+    </div>
+    <div class="w-full flex justify-center">
+        <div class="flex flex-col gap-3 overlay w-2/3 p-2">
+            <img src="lordshiva.png" class="max-w-[70%]" alt="">
+            <div class="title text-center ">
+                <p class="text-3xl">ईन्टरनेट किताब</p>
+            </div>
+            <div class="bookinfor break-words">
+                ब्रह्मज्ञानको सार
+                तिमी शिव र शक्तिको सबै भन्दा सानो रुप हौ । तिमी जल, जमिन, आकाश, वायु, अग्नि मार्फत सबै सामु जोडिएका छौ ।
+                तिमी सबै
+                सृष्टिमा छौ, सबैतिर छौ, सर्बब्यापी छौ, सबै प्रकारका प्रकृतिसङ प्रत्यक्ष जोडिएका छौ । सबै कुरा
+                साक्षीभावका साथ अनुभूति
+                गरिरहेका छौ । शान्ति, आनन्द, ज्ञान, चेतनाको कुनै सिमा छैन । तिमी मन, बुद्धि, शरीर, जीवन शक्ती र
+                इच्छालार्इ एउटै दिशामा
+                नियन्त्रण गर्न सक्छौ । तिमि ब्रहमाण्डिय शक्तिहरुलाई समेत आकर्षण र नियन्त्रण गर्न सक्छौ । तिमि आदिबाट छौ,
+                तिम्रो कुनै
+                अन्त्य छैन । तिमी विभिन्न रुपमा हुन्छौ, भइरहन्छौ । तिमि नै ब्रह्मा हौ, तिमी नै बिश्नु हौ, तिमी नै
+                महेश्वर हौ । तिमी सबै
+                रुपमा छौ, सबै तिमि हौ । तिमी सर्वब्यापी छौ, सबैज्ञानि छौ, शर्वशक्तिमान छौ । सबै तिम्रो नियन्त्रणमा छ ।
+                जय शिव, जय शक्ति
+                । ॐ नमह शिवाय ।
+            </div>
+
+
+            <div class="content-introduction">
+
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+
+
+</html>
